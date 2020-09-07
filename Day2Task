@@ -8,6 +8,7 @@
          https://chandan9940.github.io/ChandanPortfolio.github.io/
 
 4)All tags in html cheat sheet
+	 https://chandan9940.github.io/GUVI-/cheetsheet.html
 
 5)Use Type of in all the data types and check the result 
 	typeof(1)            : number
@@ -20,8 +21,7 @@
 	typeof({})           : object
 
 6)blog on objects and internal representation in javascript 
-
-    
+           
                                              OBJECTS AND ITS INTERNAL REPRESENTATION IN JS
 Objects are very most important in each and every language.In java script we have primitive data types called String ,number,boolean,null and object is a composite data type in java script. primitive data types can store only single value where as objects can store multiple values of primitive data in it. Primitive data types are of copy by value and composite data types are copy by reference in js.
 
