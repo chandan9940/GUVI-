@@ -1,0 +1,18 @@
+=====================Object doesn't support property=======================
+
+This error  occurs in browser when you call an undefined method. 
+You can test this using browser Console.
+
+This is equivalent to the error "TypeError: 'undefined' is not a function" in Chrome. 
+Yes, different browsers can have different error messages for the same logical error.
+
+This is a common problem for IE in web applications that make use of  JavaScript namespacing. 
+When this is the case, the problem 99.9% of the time is IE’s inability to bind methods within 
+the current namespace to the this keyword. For example, if you have the JS namespace Rollbar 
+with the method isAwesome. Normally, if you are within the Rollbar namespace you can invoke 
+the isAwesome method with the following syntax:
+this.isAwesome();
+
+Chrome, Firefox and Opera will happily accept this syntax. IE, on the other hand, will not. 
+Thus, the safest bet when using JS namespacing is to always prefix like metioned below  
+namespace.Rollbar.isAwesome();

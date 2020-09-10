@@ -1,0 +1,6 @@
+===================TypeError undefined is not an object =============
+
+This is an error that occurs in Safari when you read a property or 
+call a method on an undefined object. 
+
+
