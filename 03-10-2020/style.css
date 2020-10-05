@@ -1,0 +1,26 @@
+i {
+    background-color: grey;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+
+#firstrow{
+  background: grey;
+  
+}
+#h1name{
+  position: absolute; 
+  top: 193px;
+   left:25%;
+  right:25%; 
+}
+#name{
+  background:goldenrod
+}
+#subfirrow
+{
+  background: gray;
+   height: 30px;
+   width: auto;
+}
