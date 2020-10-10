@@ -1,0 +1,49 @@
+.mainpart {
+	width: 600px;
+    margin: 190px auto;
+	background-color:lightgrey;
+	padding: 3%;
+}
+
+.input-container {
+	  display: -ms-flexbox; /* IE10 */
+	  display: flex;
+	  width: 100%;
+	  margin-bottom: 15px;
+	  
+	 
+
+	}
+
+.icon {
+	  padding: 9px;
+	  background:slategrey;
+	  color: white;
+	  min-width: 20px;
+	  text-align: center;
+	}
+
+.space {
+	  width: 100%;
+	  padding: 10px;
+	outline: none;
+}
+
+.input-field:focus {
+	border: 2px solid dodgerblue;
+	}
+
+.but
+{
+	background:white; 
+	padding:10px; 
+	color: black; 
+	font-weight:bold;
+	border-color: black;
+	border: 4px;
+	border-radius:5px;
+}	
+.mn
+{
+    width: 300px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssesmentPage1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>	
+    <div class="mainpart">
+        <form action="" onsubmit="alert('Thanks for submitting form!')" >
+            <table>
+                <tr>
+					<td class="mn"><label for="fullname"> Full Name</label> </td>
+					<td > 
+					<div class="input-container">
+						<i class="p fas fa-user icon"></i> 
+						<input class="space" type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+					</div>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="add1">Address Line 1</label></td>
+                    <td >
+						<div class="input-container">
+							<i class="fas fa-address-book icon"></i> 
+							<input class="space" type="text" id="add1" name="add1" placeholder="Address Line 1" required>
+						</div>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="add1">Address Line 2</label></td>
+                    <td id="inp">
+						<div class="input-container">
+							<i class="fas fa-address-book icon"></i> 
+							<input class="space" type="text" id="add1" name="add1" placeholder="Address Line 2" required>
+						</div>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td id="inp">
+						<div class="input-container">
+							<i class="fas fa-building icon"></i> 
+							<input class="space" type="text" id="city" name="city" placeholder="City" required>
+						</div>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="st">State/Province/Region</label></td>
+                    <td id="inp">
+						<div class="input-container">
+							<i class="fas fa-map-marker-alt icon"></i> 
+							<input class="space" type="text" id="st" name="st" placeholder="State/Province/Region" required>
+						</div>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="zip">Postal Code/ZIP</label></td>
+                    <td id="inp"> 
+						<div class="input-container">
+							<i class="fas fa-envelope-square icon"></i> 
+							<input class="space" type="text" id="zip" name="zip" placeholder="Postal Code/ZIP" required>
+						</div>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td id="inp">
+						<div class="input-container">
+							<i class="fas fa-flag icon"></i> 
+							<select class="space" name="" id="country" required>
+							<option value="">--Please Select your country--</option>
+							<option value="In">India</option>
+							<option value="pak">Pakistan</option>
+							<option value="Ba">Bangladesh</option>
+						</select>
+						</div>
+						
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Email</label></td>
+                    <td id="inp">
+						<div class="input-container">
+							<i class="p fas fa-user icon"></i> 
+							<input class="space" type="email" id="mail" name="mail" placeholder="Email" required>
+						</div>
+						
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="number">Phone Number</label></td>
+                    <td id="inp">
+					<div class="input-container">
+							<i class="p fas fa-user icon"> </i>
+						<input class="space" type="text" id="number" name="number" placeholder="Phone Number" required>
+						</div>
+						
+					</td>
+                </tr>
+               <tr>
+					<td></td>
+					<td><input type="submit" value="Submit" class="but" ></td>
+			   </tr>
+            </table>
+            
+        </form>
+    </div>
+    
+    <script src="Form.js"></script>
+    <script src="https://kit.fontawesome.com/36d5e732b8.js" crossorigin="anonymous"></script>
+</body>
+</html>
